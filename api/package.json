@@ -1,0 +1,17 @@
+{
+  "name": "firebase-check-status",
+  "version": "1.0.0",
+  "description": "Check if users are online using Firebase",
+  "main": "api/checkOnlineStatus.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node api/checkOnlineStatus.js"
+  },
+  "keywords": [],
+  "author": "Bior",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^10.0.0"
+  }
+}
